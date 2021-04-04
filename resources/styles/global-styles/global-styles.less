@@ -1,0 +1,79 @@
+html {
+	font-family: 'Akrobat';
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+.global-wrapper {
+	margin: 0 auto;
+	max-width: 1300px;
+	position: relative;
+}
+.global-block-paddings-big {
+	padding: 120px 0;
+}
+.global-block-paddings-small {
+	padding: 70px 0;
+	background: #f9f9f9;
+}
+.global-block-devider {
+	margin: 0 50px;
+	width: 1px;
+	background: #e3e2e2;
+}
+.global-block-title {
+	font-weight: 500;
+	font-size: 2.813rem;
+	color: #2c2951;
+	line-height: 1;
+}
+.global-main-description-text {
+	font-weight: 600;
+	font-size: 1.875rem;
+	color: #25233f;
+	margin-bottom: 10px;
+}
+.global-alt-description-text {
+	font-weight: 300;
+	font-size: 1.25rem;
+	color: #585858;
+}
+.global-button-main {
+	width: fit-content;
+	background: #f28d09;
+	padding: 15px 60px;
+	border-radius: 6px;
+	font-weight: 500;
+	font-size: 1.4375rem;
+	color: white;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+.global-button-alt {
+	width: 100%;
+	text-align: center;
+	background: #f28d09;
+	padding: 15px 60px;
+	font-weight: 500;
+	font-size: 1.4375rem;
+	border-radius: 6px;
+	color: white;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+@media screen and (max-width: 1450px) {
+	.global-wrapper {
+		padding: 0 50px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.global-block-paddings-big {
+		padding: 70px 0;
+	}
+	.global-wrapper {
+		padding: 0 15px;
+	}
+}

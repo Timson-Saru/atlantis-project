@@ -1,0 +1,149 @@
+#about-company {
+	background: rgb(69, 184, 239);
+	background: linear-gradient(
+		114deg,
+		rgba(69, 184, 239, 1) 10%,
+		rgba(105, 217, 245, 1) 17%,
+		rgba(134, 243, 249, 1) 38%,
+		rgba(255, 255, 255, 1) 50%
+	);
+}
+.about-company-frame {
+	background: url('../../images/about-company-bg-shape.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+.custom-margins {
+	margin-left: -50px;
+	padding-left: 170px;
+	padding-top: 300px;
+}
+.about-company-atlantis-logo {
+	margin-bottom: 9px;
+}
+.about-company-flex-container {
+	display: flex;
+}
+.about-company-eng-title {
+	position: relative;
+	font-family: 'poppins';
+	color: #2f2d51;
+	font-size: 2.219rem;
+	line-height: 1.26;
+	white-space: nowrap;
+	span {
+		color: #45b8ef;
+	}
+	span:before {
+		content: '';
+		position: absolute;
+		z-index: 1;
+		background: url('../../images/atlantis-logo.png');
+		width: 111px;
+		height: 137px;
+		display: block;
+		top: -150px;
+	}
+}
+.about-company-heroimage-box {
+	width: fit-content;
+	font-family: 'poppins';
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.about-company-hero-image {
+	width: 412px;
+	height: 373px;
+}
+.about-company-description-frame {
+	display: flex;
+	width: fit-content;
+	flex-direction: column;
+	justify-content: center;
+}
+.about-company-contact-box-container {
+	margin: 35px 0;
+	display: flex;
+}
+.about-company-contact-box {
+	display: flex;
+	align-items: center;
+	margin-right: 50px;
+	img {
+		margin-right: 18px;
+	}
+}
+.about-company-main-text {
+	font-weight: 600;
+	font-size: 0.9375rem;
+	color: #25233f;
+}
+.about-company-secondary-text {
+	font-weight: 300;
+	font-size: 0.9375rem;
+	color: #585858;
+}
+.about-company-contact-text {
+	display: inline-block;
+}
+@media screen and (max-width: 1450px) {
+	#about-company {
+		background: white;
+		.about-company-frame {
+			background: transparent;
+			margin-left: 0;
+			padding-left: 0;
+		}
+	}
+}
+@media screen and (max-width: 1065px) {
+	.about-company-contact-box {
+		margin: 0 15px;
+	}
+	.about-company-flex-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.about-company-description-frame {
+		align-items: center;
+		width: 100%;
+		header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+	}
+	.about-company-heroimage-box {
+		margin-bottom: 40px;
+		.about-company-eng-title {
+			font-size: 1.875rem;
+		}
+	}
+}
+@media screen and (max-width: 500px) {
+	.about-company-eng-title {
+		span:before {
+			background: url('../../images/atlantis-logo-mobile.png');
+			width: 80px;
+			height: 101px;
+			top: -112px;
+		}
+	}
+	.about-company-heroimage-box {
+		width: fit-content;
+	}
+	.about-company-description-frame {
+		align-items: center;
+		width: 100%;
+		header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+	}
+}

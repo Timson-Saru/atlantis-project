@@ -1,0 +1,143 @@
+.try-course-custom-margin {
+	margin-bottom: 140px;
+}
+.try-course-frame {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.try-course-description-box {
+	position: relative;
+	background: white;
+	border-radius: 32px 32px 32px 6px;
+	padding: 30px;
+	max-width: 471px;
+	margin-left: 50px;
+	-webkit-box-shadow: 0px 0px 21px 16px rgba(0, 0, 0, 0.03);
+	box-shadow: 0px 0px 21px 16px rgba(0, 0, 0, 0.03);
+	z-index: 2;
+}
+.try-course-sign-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.try-course-title {
+	margin-bottom: 20px;
+}
+.try-course-sign-background {
+	position: relative;
+	display: flex;
+	min-width: 500px;
+	min-height: 500px;
+	border-radius: 50%;
+	background: url('../../images/try-course-shape.png');
+	background-repeat: no-repeat;
+	justify-content: center;
+	align-items: center;
+}
+.try-course-sign-background:after {
+	content: url('../../images/try-course-person.png');
+	position: absolute;
+	z-index: 1;
+	top: 365px;
+	right: -250px;
+}
+.try-course-sign-contetnt-frame {
+	min-width: 312px;
+	background: white;
+	border-radius: 51px;
+	padding: 50px 0;
+	margin-bottom: -200px;
+}
+.try-course-sign-contetnt {
+	background: #f1f6fc;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.try-course-button-box {
+	padding: 0 10px;
+}
+.try-course-bullet {
+	display: flex;
+	border-radius: 6px;
+	padding: 10px;
+	background: white;
+
+	.try-course-bullet-img-box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 55px;
+		height: 55px;
+		border-radius: 6px;
+		margin-right: 10px;
+	}
+}
+.try-course-bullet-text-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.try-course-bullet-title {
+	color: #262133;
+	font-size: 1.125rem;
+	font-weight: 500;
+}
+.try-course-bullet-sub-title {
+	color: #929191;
+	font-size: 1.125rem;
+	font-weight: 300;
+}
+.try-course-bullet:not(:last-child) {
+	margin-bottom: 10px;
+}
+@media (max-width: 970px) {
+	.try-course-frame {
+		display: flex;
+		flex-direction: column;
+	}
+	.try-course-description-box {
+		border-radius: 32px 32px 32px 32px;
+		margin-left: 0;
+	}
+	.try-course-sign-background:after {
+		display: none;
+	}
+	.try-course-sign-background {
+		margin-bottom: 150px;
+	}
+	.try-course-description-box:before {
+		content: url('../../images/dotted-arrow.png');
+		position: absolute;
+		z-index: 1;
+		left: -100px;
+		top: -175px;
+	}
+	.try-course-custom-margin {
+		margin-bottom: 0;
+	}
+}
+@media (max-width: 595px) {
+	.try-course-sign-background {
+		min-width: fit-content;
+		padding: 0 15px;
+		border-radius: 63px;
+		background: rgb(120, 234, 237);
+		background: linear-gradient(
+			143deg,
+			rgba(120, 234, 237, 1) 21%,
+			rgba(98, 227, 231, 1) 39%,
+			rgba(60, 168, 200, 1) 76%
+		);
+	}
+	.try-course-sign-background {
+		margin-bottom: 90px;
+	}
+	.try-course-description-box:before {
+		display: none;
+	}
+	.try-course-sign-contetnt-frame {
+		margin-bottom: -100px;
+	}
+}

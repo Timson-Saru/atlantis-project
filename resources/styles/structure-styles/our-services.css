@@ -1,0 +1,117 @@
+#our-services {
+  overflow-x: hidden;
+}
+#our-services .our-services-title-box {
+  text-align: center;
+}
+.our-services-carousel-container {
+  padding: 70px 0;
+}
+.our-services-card {
+  max-width: 415px;
+  background: #ffffff;
+  margin-right: 18px;
+  border: solid 1px #e3e2e2;
+  border-radius: 6px;
+  padding: 18px;
+  min-height: 475px;
+}
+.our-services-card .services-bottom-box {
+  display: flex;
+  flex-direction: column;
+}
+.our-services-card .services-description-text {
+  font-weight: 300;
+  color: #585858;
+  font-size: 1.125rem;
+}
+.our-services-card .services-aditional-info-box {
+  display: flex;
+  margin-bottom: 30px;
+}
+.our-services-card .services-aditional-info-box .services-time-box {
+  margin-right: 50px;
+}
+.our-services-card .services-aditional-info-box .services-icon-box {
+  display: flex;
+  align-items: center;
+}
+.our-services-card .services-title-text {
+  font-weight: 600;
+  color: #25233f;
+  font-size: 1.313rem;
+  margin-right: 8px;
+}
+.our-services-card .services-description-text {
+  font-weight: 300;
+  color: #4e4c69;
+  font-size: 1.125rem;
+}
+.our-services-card .services-sign-button {
+  background: #f28d09;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 1.438rem;
+  cursor: pointer;
+}
+.our-services-flex-box-title {
+  display: flex;
+}
+.our-services-flex-box-title .services-image-box {
+  height: 82px;
+  width: 78px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 18px;
+  margin-bottom: 18px;
+}
+.our-services-flex-box-title .services-image-box .combo-icon-flex-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.our-services-flex-box-title .services-image-box .combo-icon-flex-box .services-combo-icon-box-top {
+  display: flex;
+  padding: 8px 0 0 8px;
+}
+.our-services-flex-box-title .services-image-box .combo-icon-flex-box .services-combo-icon-box-bot {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 8px 8px 0;
+}
+.our-services-flex-box-title .services-text-box .services-card-title {
+  font-weight: 600;
+  color: #25233f;
+  font-size: 1.313rem;
+  line-height: 0.9;
+  margin-bottom: 4px;
+}
+.our-services-flex-box-title .services-text-box p {
+  font-weight: 300;
+  color: #b7b7b7;
+  font-size: 1rem;
+}
+.control-box {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  max-width: 263px;
+  height: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-stroke-devider {
+  height: 1px;
+  width: 100%;
+  margin: 30px 0;
+  background: #e3e2e2;
+}

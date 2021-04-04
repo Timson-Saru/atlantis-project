@@ -1,0 +1,12 @@
+@import 'resources/styles/css-reset/browser-styles-reset.css';
+@import 'resources/styles/font-face/font-face.css';
+@import 'resources/styles/global-styles/global-styles.css';
+@import 'resources/styles/structure-styles/navigation.css';
+@import 'resources/styles/structure-styles/about-company.css';
+@import 'resources/styles/structure-styles/our-services.css';
+@import 'resources/styles/structure-styles/our-methods.css';
+@import 'resources/styles/structure-styles/try-course.css';
+@import 'resources/styles/structure-styles/our-teachers.css';
+@import 'resources/styles/structure-styles/why-us.css';
+@import 'resources/styles/structure-styles/feed-back.css';
+@import 'resources/styles/structure-styles/contacts.css';
